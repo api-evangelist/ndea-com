@@ -1,7 +1,15 @@
 aid: ndea-com
-name: Ndea Com
-description: Ndea Com is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Ndea
+description: >-
+  Ndea is an AI research and science laboratory building artificial general
+  intelligence through program synthesis. Ndea describes its work as blending
+  intuitive pattern recognition with formal reasoning in a unified architecture,
+  combining deep-learning intuition with discrete program search to achieve
+  stronger generalization from minimal training data. As a frontier research
+  organization, Ndea presents itself through its public website, an about page,
+  a careers/jobs page, and a podcast; it currently publishes no public API, SDK,
+  developer portal, or commercial developer platform, so this profile captures
+  its corporate and web-security surface rather than an API surface.
 url: https://raw.githubusercontent.com/api-evangelist/ndea-com/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +17,55 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+image: https://ndea.com/favicon.ico
 tags:
 - Company
+- Artificial Intelligence
+- Artificial General Intelligence
+- Machine Learning
+- Deep Learning
+- Program Synthesis
+- Research
+- AI Lab
 apis: []
+common:
+- type: DomainSecurity
+  url: security/ndea-com-domain-security.yml
+- type: WellKnown
+  url: well-known/ndea-com-well-known.yml
+- type: Website
+  url: https://ndea.com
+- type: About
+  url: https://ndea.com/about
+- type: Careers
+  url: https://ndea.com/jobs
+- type: Contact
+  url: https://ndea.com/contact
+- type: YouTube
+  url: https://www.youtube.com/@ndeainc
+- type: X
+  url: https://x.com/ndea
+- type: Podcast
+  url: https://open.spotify.com/show/67zmiUKRMLQApaMnxpsHKY
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
